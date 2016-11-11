@@ -1,0 +1,1 @@
+cmd_/home/sahil/DeviceDrivers/myprog/lab3/avg.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sahil/DeviceDrivers/myprog/lab3/avg.ko /home/sahil/DeviceDrivers/myprog/lab3/avg.o /home/sahil/DeviceDrivers/myprog/lab3/avg.mod.o
