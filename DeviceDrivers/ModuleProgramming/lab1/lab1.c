@@ -20,6 +20,7 @@ static int __init hello_init(void)
 	printk(KERN_INFO"I am in INIT module\n");
 	return 0;
 }
+
 static void __exit hello_exit(void)
 {
 	printk(KERN_INFO"I am in EXIT module\n");
