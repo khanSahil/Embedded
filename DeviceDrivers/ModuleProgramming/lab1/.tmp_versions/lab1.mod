@@ -1,2 +1,2 @@
-/home/sahil/DeviceDrivers/myprog/lab1/lab1.ko
-/home/sahil/DeviceDrivers/myprog/lab1/lab1.o
+/home/sahil/myGit/DeviceDrivers/ModuleProgramming/lab1/lab1.ko
+/home/sahil/myGit/DeviceDrivers/ModuleProgramming/lab1/lab1.o

@@ -1,7 +1,7 @@
 obj-m := lab1.o
 
 KERN_SRC :=/lib/modules/$(shell uname -r)/build
-PWD := /home/sahil/DeviceDrivers/myprog/lab1
+PWD := /home/sahil/myGit/DeviceDrivers/ModuleProgramming/lab1
 
 modules:
 		make -C $(KERN_SRC) M=$(PWD) modules
