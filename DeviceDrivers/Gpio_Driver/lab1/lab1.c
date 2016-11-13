@@ -6,7 +6,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Sahil Khan");
-MODULE_DESCRIPTION("LED at GIPO_48 toggling on rising and falling edge of the PUSH button at GPIO_49");
+MODULE_DESCRIPTION("LED at GIPO_48 toggling at rising and falling edge of the PUSH button at GPIO_49");
 
 static unsigned int	LED = 48;       // LED is connected to GPIO 48
 static unsigned int Button = 49;    // Button is connected to GPIO 49
