@@ -3,21 +3,13 @@
 case "$1" in
 
 	1) 
-		sudo make ;
-		if [ $? -eq 0 ]
-		then 
-			sudo insmod $2.ko; 
-			if [ $? -eq 0 ]
-			then
-				echo "$2.ko loaded successfully"
-				echo "Opening the Kernel Logs"
-				sleep 3
-				tail -f -n 200 /var/log/kern.log
-			else
-				echo "Module not loaded successfully"
-			fi
+		if [ `make` && `insmod $2.ko` ] 
+		then
+			echo "$2.ko loaded successfully : Opening the Kernel Logs"
+			sleep 3
+			tail -f -n 200 /var/log/kern.log
 		else
-			echo "Module not generated"
+			echo "Failed to load the module"
 		fi;;
 			
 	0)
