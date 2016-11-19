@@ -15,7 +15,7 @@ Description	: This lab basically focusses on accessing the on-board LEDs of Beag
 // defining the path 
 #define LED0_Blinking_On "/sys/class/leds/beaglebone:green:usr0/trigger"
 #define LED0_Blinking_Off "/sys/class/leds/beaglebone:green:usr0/brightness"
-
+#define num_elements 1
 int main(int argc, char *argv[])
 {
 	FILE *fp=NULL;
@@ -30,9 +30,9 @@ int main(int argc, char *argv[])
 			exit(0);
 		}
 
-		size=fwrite(argv[1],strlen(argv[1]),1,fp);
+		size=fwrite(argv[1],strlen(argv[1]),num_elements,fp);
 		
-		if(size != 1){
+		if(size != num_elements){
 			printf("ERROR : Trigger : Write to LED0 failed\n");
 			exit(0);
 		}
@@ -45,8 +45,8 @@ int main(int argc, char *argv[])
             exit(0);
         }   
         
-        size=fwrite(argv[1],strlen(argv[1]),1,fp);
-        if(size != 1){
+        size=fwrite(argv[1],strlen(argv[1]),num_elements,fp);
+        if(size != num_elements){
             printf("ERROR : Brightness : Write to LED0 failed\n");
             exit(0);
         }
