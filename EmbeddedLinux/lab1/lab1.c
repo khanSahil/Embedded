@@ -2,9 +2,9 @@
 Author		: Sahil Khan
 Date		: 18th Nov 2016
 Description	: This lab basically focusses on accessing the on-board LEDs of BeagleBoneBlack.
-			It simply opens the path and write to it to trigger LED0 or turn off LED0.It
-			checks what parameter you are passing and accordinly turns ON or OFF LED0.This
-			BBB runs kernel verison 3.8.13-bone81. 
+		 It simply opens the path and write to it to trigger LED0 or turn off LED0.It
+		 checks what parameter you are passing and accordinly turns ON or OFF LED0.This
+		 BBB runs kernel verison 3.8.13-bone81. 
 */
 
 // Including the required Header-Files
