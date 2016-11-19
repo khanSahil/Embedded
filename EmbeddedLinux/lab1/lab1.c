@@ -24,14 +24,14 @@ int main(int argc, char *argv[])
 	if(strcmp(argv[1],"timer")==0){
 
 		fp=fopen(LED0_Blinking_On,"w");
-		
+
 		if(fp == NULL){
 			printf("ERROR : Trigger : The LED0 path cannot be open\n");
 			exit(0);
 		}
 
 		size=fwrite(argv[1],strlen(argv[1]),num_elements,fp);
-		
+
 		if(size != num_elements){
 			printf("ERROR : Trigger : Write to LED0 failed\n");
 			exit(0);
@@ -40,16 +40,16 @@ int main(int argc, char *argv[])
 	else
 	{
 		fp=fopen(LED0_Blinking_Off,"w");
-		 if(fp == NULL){
-            printf("ERROR : Brightness : The LED0 path cannot be open\n");
-            exit(0);
-        }   
-        
-        size=fwrite(argv[1],strlen(argv[1]),num_elements,fp);
-        if(size != num_elements){
-            printf("ERROR : Brightness : Write to LED0 failed\n");
-            exit(0);
-        }
+		if(fp == NULL){
+			printf("ERROR : Brightness : The LED0 path cannot be open\n");
+			exit(0);
+		}   
+
+		size=fwrite(argv[1],strlen(argv[1]),num_elements,fp);
+		if(size != num_elements){
+			printf("ERROR : Brightness : Write to LED0 failed\n");
+			exit(0);
+		}
 	}
 
 	printf("Successfully wrote to On-Board LED0\n");
