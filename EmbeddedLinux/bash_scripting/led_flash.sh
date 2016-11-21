@@ -3,7 +3,7 @@
 # This script is used to toggle the externally connected LED at GPIO49.
 # Gpio number is passed as an argument to this script and then the required
 # gpio directory is created inside the path /sys/class/gpio/.After toggling
-# the gpio directory is deleted from sys/class/gpio/ path.
+# the LED, the gpio directory is deleted from sys/class/gpio/ path.
 
 
 #declaring path to the GPIO directory
