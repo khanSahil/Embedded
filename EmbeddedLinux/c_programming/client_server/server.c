@@ -3,14 +3,14 @@ Author		: Sahil Khan
 Date		: 28th Jan 2017
 Description	: This lab basically focusses on socket programming in Linux Environment.
 			  This is server.c file which creates a socket and attaches itself to that
-			  socket.After attaching, it writes to that socket it waits to listen if
-			  any client is trying to communicate through that socket. This srver handles
+			  socket.After attaching, it writes to that socket, it waits to listen if
+			  any client is trying to communicate through that socket. This server handles
 			  one client at a time as multiple client handling is not supported in this 
 			  program.
 			  Socket programming is one of the ways multiple process can communicate
-			  with eac other and exchange status and data.This client server program
-			  runs on the same local linux machine so newtwork access is involved in this 
-			  program.
+			  with each other and exchange status and data.This client server program
+			  runs on the same local linux machine so no newtwork access is involved in 
+			  this program.
 */
 
 #include "header.h"
