@@ -2,13 +2,13 @@
 Author		: Sahil Khan
 Date		: 28th Jan 2017
 Description	: This lab basically focusses on socket programming in Linux Environment.
-			  This is client.c file which creates a socket and attaches itself to that
-			  socket.After attaching, it writes to that socket and gets back a response 
-			  from the server which is listening the same sockt.
-			  Socket programming is one of the ways multiple process can communicate
-			  with eac other and exchange status and data.This client server program
-			  runs on the same local linux machine so newtwork access is involved in this 
-			  program.
+		  This is client.c file which creates a socket and attaches itself to that
+		  socket.After attaching, it writes to that socket and gets back a response 
+		  from the server which is listening the same sockt.
+		  Socket programming is one of the ways multiple process can communicate
+		  with eac other and exchange status and data.This client server program
+		  runs on the same local linux machine so newtwork access is involved in this 
+		  program.
 */
 
 
