@@ -1,6 +1,6 @@
 /*
 Author		: Sahil Khan
-Date		: 29th Jan 2017
+Date		: 5th Feb 2017
 Description	: This lab basically focusses on socket programming in Linux Environment.
 			  This is server.c file which creates a socket and attaches itself to that
 			  socket.After attaching, it writes to that socket, it waits to listen if
