@@ -1,0 +1,1 @@
+The readv() system call performs scatter input: it reads contigous sequence of bytes from the file refered to by file descriptor fd and places ("scatters") these bytes into the buffers specified by iov. Each of the buffers, starting by one defined by iov[0], is completely filled before readv() proceeds to the next buffer.
