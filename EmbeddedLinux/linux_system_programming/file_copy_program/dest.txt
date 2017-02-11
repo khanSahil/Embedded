@@ -1,3 +1,1 @@
-Hello , this is a program to check the file operations.
-It creates two files if not created and reads the source file write to destination file.
-Proper error checking and exit statuses are used to monitor any error in opening, reading ,writng and closing of files.
+Hello My name is Sahil Khan
