@@ -2,14 +2,14 @@
 Author		: Sahil Khan
 Date		: 23rd Feb 2017
 Description	: This lab covers the concept related to zombie process in Linux OS. In this
-          program a Zombie process is created and using ps command, the created zombie
-          process was also shown on the terminal. System() system call is used to execute 
-          the command. One more important feature is described i.e Zombie process cannot
-          be killed by SIGKILL command so parent process have to call wait() system call
-          eventually to remove the process from kernel process table.
-          In this example also I tried to send a SIGKILL command to the newly created
-          Zombie process and again did ps command just to show that Zombie process was
-          not kill by SIGKILL command.
+          	  program a Zombie process is created and using ps command, the created zombie
+          	  process was also shown on the terminal. System() system call is used to execute 
+          	  the command. One more important feature is described i.e Zombie process cannot
+          	  be killed by SIGKILL command so parent process have to call wait() system call
+          	  eventually to remove the process from kernel process table.
+          	  In this example also I tried to send a SIGKILL command to the newly created
+          	  Zombie process and again did ps command just to show that Zombie process was
+          	  not kill by SIGKILL command.
 */
 
 
@@ -55,5 +55,5 @@ int main(int argc, char *argv[])
 			printf("After sending SIGKILL to Zombie(PID = %ld):\n",(long)pid_value);
 			system(command);
 			exit(EXIT_SUCCESS);
-		}
+	}
 }
