@@ -1,13 +1,13 @@
 /*
 Author		: Sahil Khan
-Date		: th2 Feb 2017
+Date		: 24th Feb 2017
 Description	: This lab covers the concept related to standard macros defined in header file
-              <sys/wait.h> to dissect the wait status value. When applied to a status value
-              returned by wait() or waitpid(), only one of the macros in the list will return
-              true. In this program 4 macros are used WIFEXITED(status),WIFSIGNALED(status),
-              WIFSTOPPED(status) and WIFCONTINUED(status). 
-              When you run the process at the background and send the signals then the corre-
-              -sponding signal status will be printed inside printWaitStatus() function.
+                  <sys/wait.h> to dissect the wait status value. When applied to a status value
+                  returned by wait() or waitpid(), only one of the macros in the list will return
+                  true. In this program 4 macros are used WIFEXITED(status),WIFSIGNALED(status),
+                  WIFSTOPPED(status) and WIFCONTINUED(status). 
+                  When you run the process at the background and send the signals then the corre-
+                  -sponding signal status will be printed inside printWaitStatus() function.
 */
 
 
