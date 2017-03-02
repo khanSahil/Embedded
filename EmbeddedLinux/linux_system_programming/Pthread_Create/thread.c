@@ -1,11 +1,11 @@
 /*
 Author		: Sahil Khan
-Date		: 13th Feb 2017
-Description	: This lab covers the concepts of signal in linux operating systems.
-		  This basic example demonstrates how a signal handler is installed for 
-		  a particular signal event. I have used Ctrl+C event and installed a 
-		  handler which prints the signal number in the handler that is called 
-		  automatically whenever that event is generated.
+Date		: 1st March 2017
+Description	: This lab covers the concepts of threads in very basic way.In this
+          lab a thread ic created, argument is passed to the define thread function
+          and finally received the return value from the thread function.
+		  Very basic and easy way of showing how threads are created and joined when
+		  they get terminated or returned from the thread function.
 */
 
 
