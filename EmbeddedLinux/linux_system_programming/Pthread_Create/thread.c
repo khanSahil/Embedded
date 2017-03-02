@@ -2,8 +2,8 @@
 Author		: Sahil Khan
 Date		: 1st March 2017
 Description	: This lab covers the concepts of threads in very basic way.In this
-          lab a thread ic created, argument is passed to the define thread function
-          and finally received the return value from the thread function.
+		  lab a thread ic created, argument is passed to the define thread function
+		  and finally received the return value from the thread function.
 		  Very basic and easy way of showing how threads are created and joined when
 		  they get terminated or returned from the thread function.
 */
