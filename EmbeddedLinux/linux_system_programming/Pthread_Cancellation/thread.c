@@ -7,8 +7,9 @@ Description	: This lab covers the concepts of threads cancellation. A thread is
 		  When the thread is cancelled in this way, thread_join() returns a specific
 		  value: THREAD_CANCELED and this is checked to make sure the thread was
 		  cancelled successfully.
-		  In this example no cancellation point was established, so the thread could
-		  be cancelled when it is executing any instruction inside for loop.
+		  In this example two cancellation point (printf() , sleep())was established, 
+		  so the thread could be cancelled when it is executing any of the cancellation 
+		  point inside the for loop.
 */
 
 
