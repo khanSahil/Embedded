@@ -19,7 +19,7 @@ Description	: This lab covers the concepts of message queues, one of the System 
 int main(int argc, char *argv[])
 {	
 	int numKeyFlags = 0,flags = 0,msqid,opt;
-	unsigned int perm;
+	unsigned int perms;
 	long lkey;
 	key_t key;
 		
@@ -53,9 +53,9 @@ int main(int argc, char *argv[])
 	if(numKeyFlags != 1)
 		pErr("Exactly one of the options -f,-k or -p must be supplied");
 		
-	perm = (optind == argc) ? (S_IRUSR|S_IWUSR):atoi(argv[optind]);	
+	perms = (optind == argc) ? (S_IRUSR|S_IWUSR):atoi(argv[optind]);	
 	
-	if((msqid = msgget(key,flags)) == -1)
+	if((msqid = msgget(key,flags | perms)) == -1)
 		pErr("mssget() failed to create message queue");
 		
 	pDbg("MsgID : %d",msqid);	
