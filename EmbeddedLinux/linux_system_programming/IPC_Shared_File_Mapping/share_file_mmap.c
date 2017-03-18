@@ -15,6 +15,10 @@ Description	: This lab covers the concepts of system V memory mapping scheme. In
 		  
 		  dd if=/dev/zero of=s.txt bs=1 count=1024
 		  
+		  What this command will do is , it will create a file of size 1024 , filled with NULL
+		  characters. This program when specify the file as the command line parameter , it has
+		  to have non-zero size, otherwise core dump will be generated.
+		  
 		  
 */
 
