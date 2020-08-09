@@ -1,1 +1,0 @@
-cmd_/home/sahil/myGit/DeviceDrivers/ModuleProgramming/lab1/lab1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sahil/myGit/DeviceDrivers/ModuleProgramming/lab1/lab1.ko /home/sahil/myGit/DeviceDrivers/ModuleProgramming/lab1/lab1.o /home/sahil/myGit/DeviceDrivers/ModuleProgramming/lab1/lab1.mod.o

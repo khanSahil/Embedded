@@ -1,1 +1,0 @@
-cmd_/home/sahil/DeviceDrivers/myprog/Char_Drivers/lab7/lab7.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sahil/DeviceDrivers/myprog/Char_Drivers/lab7/lab7.ko /home/sahil/DeviceDrivers/myprog/Char_Drivers/lab7/lab7.o /home/sahil/DeviceDrivers/myprog/Char_Drivers/lab7/lab7.mod.o

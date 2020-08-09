@@ -1,1 +1,0 @@
-cmd_/home/sahil/DeviceDrivers/myprog/Adv_Char_Drivers/lab3/lab3.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sahil/DeviceDrivers/myprog/Adv_Char_Drivers/lab3/lab3.ko /home/sahil/DeviceDrivers/myprog/Adv_Char_Drivers/lab3/lab3.o /home/sahil/DeviceDrivers/myprog/Adv_Char_Drivers/lab3/lab3.mod.o
